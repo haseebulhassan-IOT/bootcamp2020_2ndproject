@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App name = "haseeb" />
+    <App name = "Bootcamp 2020_ React Base Application" />
   </React.StrictMode>,
   document.getElementById('root')
 );

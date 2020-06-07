@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-function App(name) {
+function App({name}) {
   return (
     <div className="App">
       <h1>Welcome to React App {name}</h1>
