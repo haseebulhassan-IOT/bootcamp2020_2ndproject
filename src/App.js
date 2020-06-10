@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import './hello.css';
+import Room from './Room';
 
 function App({name}) {
   return (
@@ -10,6 +11,7 @@ function App({name}) {
       <p> This is created by <strong>Haseeb Ul Hassan</strong></p>
       <h4> 2nd project of Bootcamp 2020 done!!!</h4> 
       <div> Age is 26</div>
+      <div> <Room flower= "Jasmine"/> </div>
     </div>
   );
 }
